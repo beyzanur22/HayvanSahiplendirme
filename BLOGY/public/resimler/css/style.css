@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    font-family: "Nunito", serif;
+    
+
+}
+#menu{
+    height: 80xp ;
+    padding: 0 20px;
+    
+    
+}
+#logo{
+    font-size: 50px;
+    line-height: 90px ;
+    color:rgb(205, 90, 90); 
+    float: left;
+}
+nav{
+    float: right;
+    line-height: 80px;
+    
+
+}
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color:rgb(204, 191, 191);
+
+}
+nav a:hover{
+    border-bottom: 2px solid whitesmoke ;
+
+}
+
+nav a :visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color:wheat;
+
+
+}
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+    color: #f8f9fa;
+   
+
+}
+#anasayfa{
+    height: 600px;
+    background-image: url("../anaa.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;
+
+}
+#içerik{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color:white;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+
+
+
+}
+#Hakkımızda{
+    
+   
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+
+    
+}
+h3{
+    font-size:55px;
+    color: #003666;
+    text-shadow: 0px  1px black;
+    font-weight:600 ;
+
+
+
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+
+}
+#sol{
+    float: left;
+    border-right: 3px solid #445c6e ;
+    font-size: 30px;
+    width: 400px;
+    color:445c6e;
+}
+#h5sol{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+#h5sol, #sag{
+    margin:0;
+    padding: 0;
+    margin-top: 20px;
+
+}
+span{
+    font-size: 50px;
+    margin-right:7px ;
+    line-height: 43px;
+    color: darkblue;
+    font-weight: 600;
+    float: left;
+    
+}
+#sag{
+    float:right;
+    width: 750px;
+    color:darkslategrey;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+
+
+}
+#pson{
+    color:#003666;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+
+}
+#Sahiplendirme{
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    height:700px;
+    margin-bottom: 50px;
+
+
+}
+.card{
+    width: 320px;
+    height: 350px;
+    border: 1px solid #ddd;
+    padding: 0;
+    display:inline-block;
+
+   
+
+
+}
+.baslikcard{
+    font-size: 15px;
+    color:#003666;
+
+}
+.cardp{
+    color: #888;
+
+}
+.card:hover{
+    border: 2px solid darkblue;
+
+}
+#Ekip{
+    margin-top: 900px;
+    background-color: #003666;
+    padding: 50px;
+    height: 1000px;
+    text-align: center;
+
+}
+#ekiph3{
+    color :#ddd;
+
+
+}
+.sutun-sol-sag{
+    width: 385px;
+    float: left;
+    padding: 50px;
+
+}
+.oval{
+    border-radius: 50%;
+}
+.ekipisim{
+    color: wheat;
+    font-size: 25px;
+    margin-bottom: 12px;
+
+}
+.ekipp{
+    color: #888;
+    
+}
+.social{
+    color: #ddd;
+    border: 1px solid white;
+    padding: 10px;
+    width: 50px;
+    border-radius: 7px;
+    margin:5px;
+}
+.social:hover{
+    background-color: gray;
+
+}
+.sutun{
+    width: 385px;
+    float: left;
+    padding: 8px;
+}
+#iletişim{
+    background: url(../ff.jpg);
+    background-size: cover;
+    height: auto;
+    padding: 50px;
+    text-align: center;
+
+}
+#h3iletisim{
+    color:white;
+
+}
+#iletisimopak{
+    background:rgba(255,255,255,0.2);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 500px;
+
+}
+#formgroup{
+    width: 600px;
+    float: left;
+    height: 500px;
+    text-align:left ;
+
+}
+#solform{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+#sagform{
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5px;
+    color: #495057;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+    
+}
+textarea{
+    font-family:Arial;
+}
+input[type="submit"]{
+    cursor:pointer;
+    background-color: #445c6e;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#adres{
+    width: 500px;
+    float: right;
+    padding: 1px;
+    height: 400px;
+    text-align: left;
+    color: black;
+
+}
+#adresbaslik{
+    font-size: 20px;
+    color:darkgrey;
+
+}
+.adresp{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+
+
+    
+}
+#copyright{
+    color: white;
+    font-size: 20px;
+    letter-spacing:2px ;
+    margin-bottom: 10px;
+    
+
+}
